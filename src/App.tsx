@@ -1,4 +1,5 @@
 import "./App.css";
+import { Demo } from "./Demo.tsx";
 
 const App = () => {
   return (
@@ -12,15 +13,18 @@ const App = () => {
         </p>
       </header>
       <main className="app-main">
-        <h2>Technologies Used:</h2>
-        <ul>
-          <li>🔊 Microsoft Azure Speech Services</li>
-          <li>⚡ Vite</li>
-          <li>⚛️ React</li>
-          <li>📜 TypeScript</li>
-          <li>🧪 Vitest</li>
-          <li>🍞 Bun</li>
-        </ul>
+        <div className="column">
+          <Demo />
+          <h2>Technologies Used:</h2>
+          <ul>
+            <li>🔊 Microsoft Azure Speech Services</li>
+            <li>⚡ Vite</li>
+            <li>⚛️ React</li>
+            <li>📜 TypeScript</li>
+            <li>🧪 Vitest</li>
+            <li>🍞 Bun</li>
+          </ul>
+        </div>
       </main>
       <footer className="app-footer">
         <p>
