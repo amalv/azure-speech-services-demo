@@ -1,0 +1,28 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 2rem;
+  color: white;
+}
+
+.app-main {
+  margin: 2rem 0;
+}
+
+.app-footer {
+  margin-top: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
