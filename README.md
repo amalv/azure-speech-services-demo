@@ -1,10 +1,8 @@
 # Azure Speech Services Demo
 
+![Azure Speech Services Demo](https://github.com/amalv/azure-speech-services-demo/blob/main/screenshot.png)
+
 A demo repository showcasing the implementation of Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) using Microsoft Azure Speech Services.
-
-## Technologies Used
-
-Here is the corrected section with emojis at the beginning:
 
 ## Technologies Used
 
@@ -44,31 +42,3 @@ Here is the corrected section with emojis at the beginning:
 To start the development server:
 ```sh
 bun run dev
-```
-
-## Testing
-
-To run tests:
-```sh
-bun run test
-```
-
-## Build
-
-To create a production build:
-```sh
-bun run build
-```
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License.
